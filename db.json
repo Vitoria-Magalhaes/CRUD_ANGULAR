@@ -1,0 +1,62 @@
+{
+  "alunos": [
+    {
+      "id": 3,
+      "nome": "Beatriz Almeida",
+      "email": "beatriz.almeida@email.com",
+      "matricula": 345678
+    },
+    {
+      "id": 4,
+      "nome": "Rafael Martins",
+      "email": "rafael.martins@email.com",
+      "matricula": 456789
+    },
+    {
+      "id": 5,
+      "nome": "Lúcia Gonçalves",
+      "email": "lucia.goncalves@email.com",
+      "matricula": 567890
+    },
+    {
+      "id": 6,
+      "nome": "Fernando Rocha",
+      "email": "fernando.rocha@email.com",
+      "matricula": 678901
+    },
+    {
+      "id": 7,
+      "nome": "Juliana Moraes",
+      "email": "juliana.moraes@email.com",
+      "matricula": 789012
+    },
+    {
+      "id": 8,
+      "nome": "Marcelo Dias",
+      "email": "marcelo.dias@email.com",
+      "matricula": 890123
+    },
+    {
+      "id": 9,
+      "nome": "Sofia Lima",
+      "email": "sofia.lima@email.com",
+      "matricula": 901234
+    },
+    {
+      "nome": "vitoria",
+      "email": "vitoria@gmail.com",
+      "hideRequired": false,
+      "floatLabel": "auto",
+      "matricula": 666151,
+      "id": 10
+    },
+    {
+      "matricula": 182012,
+      "nome": "victor",
+      "email": "victor@teste.com.br",
+      "hideRequired": false,
+      "floatLabel": "auto",
+      "id": 11
+    }
+  ]
+}
