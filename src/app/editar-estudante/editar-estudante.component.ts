@@ -91,7 +91,7 @@ export class EditarEstudanteComponent implements OnInit {
           this.dialog.open(ModalComponent, {
             data: {
               title: 'Sucesso!',
-              description: `Os dados do aluno: ${this.options.value.nome} foram atualizados com sucesso.`,
+              description: `Os dados do aluno foram atualizados com sucesso.`,
               showFeedbackButtons: false,
             },
           });

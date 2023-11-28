@@ -1,22 +1,12 @@
 {
   "alunos": [
     {
-      "id": 3,
-      "nome": "Beatriz Almeida",
-      "email": "beatriz.almeida@email.com",
-      "matricula": 345678
-    },
-    {
-      "id": 4,
-      "nome": "Rafael Martins",
-      "email": "rafael.martins@email.com",
-      "matricula": 456789
-    },
-    {
-      "id": 5,
+      "matricula": 567890,
       "nome": "Lúcia Gonçalves",
       "email": "lucia.goncalves@email.com",
-      "matricula": 567890
+      "hideRequired": false,
+      "floatLabel": "auto",
+      "id": 5
     },
     {
       "id": 6,
@@ -52,11 +42,19 @@
     },
     {
       "matricula": 182012,
-      "nome": "victor",
-      "email": "victor@teste.com.br",
+      "nome": "priscila",
+      "email": "priscila@teste.com.br",
       "hideRequired": false,
       "floatLabel": "auto",
       "id": 11
+    },
+    {
+      "nome": "vitoria",
+      "email": "vitoria.teste@gmail.com",
+      "hideRequired": false,
+      "floatLabel": "auto",
+      "matricula": 660991,
+      "id": 12
     }
   ]
 }

@@ -17,15 +17,15 @@ export class AlunosService {
     return Math.floor(100000 + Math.random() * 900000);
   }
 
-  buscarAlunos(): Observable<any> {
+  buscarAlunos(): Observable<any> { // busca todos os alunos
     return this.http.get(this.apiUrl);
   }
 
-  buscarAluno(id: number): Observable<any> {
+  buscarAluno(id: number): Observable<any> { //busca aluno por id
     return this.http.get(`${this.apiUrl}/${id}`);
   }
 
-  criarAluno(aluno: any): Observable<any> {
+  criarAluno(aluno: any): Observable<any> {  
     aluno.matricula = this.gerarNumeroRandomico();
     return this.http.post(this.apiUrl, aluno);
   }
